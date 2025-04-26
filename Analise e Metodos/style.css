@@ -1,0 +1,52 @@
+
+
+
+
+body { /*Seleciona o corpo da página*/
+    font-family: Arial, sans-serif; /*Define a fonte do texto com Arial, o uma fonte padrão sem serifa*/
+    background-color: #ff00ff86; /*Define o fundo da página com um cinza claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; /*Essas linhas centralizam o conteúdo da página (horizontal e verticalmente), fazem com que ele ocupe a tela inteira (100vh),
+    e removem a margem padrão do naveador*/
+} /*Fecha a regra do body*/
+
+perfil { /*Seleciona o elemento com a classe perfil*/
+    background-color: white; /*Fundo branco*/
+    padding: 30px; /*margem interna (padding) de 30px*/
+    border-radius: 10px; /*cantos arredondados (border-radius)*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*Uma leve sombra (box-shadow)*/
+    text-align: center; /*conteúdo centralizado (text-aligh)*/
+    width: 300px; /*lagura fixa de 300px*/
+} /*fecha a regra da classe perfil*/
+
+avatar { /*seleciona a imagem com a classe avatar*/
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px; /*define o tamanho da imagem como 120x120 pixels, arredonda completamente (circulo), ajusta o conteúdo (cover)
+    e adiciona margem abaixo da imagem*/
+} /*fecha a regra avatar*/
+
+h1 {
+    margin: 10px 0;
+    color: #333;
+} /*estiliza o título principal (h1) com margem vertical e cor escura*/
+
+h2 {
+    margin: 20px;
+    color: #555;
+} /*estiliza o substituto (h2) com margem superior e com cor um pouco mais clara*/
+
+ul {
+    list-style: none;
+    padding: 0;
+} /*remove os marcadores da lista e a margem/padding padrão*/
+
+li {
+    margin: 5px 0;
+    color: #666;
+} /*adiciona espaçamento entre os itens e define uma cor ainda mais suave*/
